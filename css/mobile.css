@@ -83,96 +83,68 @@ div {
 }
 .bp3-tablet .bp3-group .bp3-about .bp3-social-deck {
   background          : rgba(255, 255, 255, 0.0);
-  top                 : 413px;
-  height              : 34px;
-  width               : 139px;
+  top                 : 417px;
+  height              : 28px;
+  width               : 71px;
   position            : absolute;
   margin              : 0;
-  left                : 314px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-facebook {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 34px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-facebook .bp3-oval {
-  background          : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 34px;
-  width               : 34px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-facebook .bp3-facebook {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 8px;
-  height              : 18px;
-  width               : 18px;
-  position            : absolute;
-  margin              : 0;
-  left                : 8px;
+  left                : 349px;
 }
 .bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-twitter {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 34px;
-  width               : 35px;
-  position            : absolute;
-  margin              : 0;
-  left                : 52px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-twitter .bp3-view1 {
-  background          : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 34px;
-  width               : 35px;
+  height              : 28px;
+  width               : 28px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  border-radius       : 17px;
+}
+.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-twitter .bp3-oval {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 14px;
 }
 .bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-twitter .bp3-twitter {
   background          : rgba(255, 255, 255, 0.0);
-  top                 : 9px;
-  height              : 17px;
-  width               : 19px;
+  top                 : 8px;
+  height              : 13px;
+  width               : 16px;
   position            : absolute;
   margin              : 0;
-  left                : 7px;
+  left                : 6px;
 }
 .bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-instagram {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 34px;
-  width               : 34px;
+  height              : 28px;
+  width               : 28px;
   position            : absolute;
   margin              : 0;
-  left                : 104px;
+  left                : 43px;
 }
-.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-instagram .bp3-view2 {
+.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-instagram .bp3-view1 {
   background          : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 34px;
-  width               : 34px;
+  height              : 28px;
+  width               : 28px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-  border-radius       : 17px;
+  border-radius       : 14px;
 }
 .bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-instagram .bp3-instagram {
   background          : rgba(255, 255, 255, 0.0);
-  top                 : 8px;
-  height              : 18px;
-  width               : 18px;
+  top                 : 7px;
+  height              : 14px;
+  width               : 14px;
   position            : absolute;
   margin              : 0;
-  left                : 8px;
+  left                : 7px;
 }
 .bp3-tablet .bp3-group .bp3-about .bp3-the-feminist-letters {
   background          : rgba(255, 255, 255, 0.0);
@@ -578,7 +550,7 @@ div {
   width               : 100%;
   min-width           : 320px;
   height              : 100vh;
-  min-height          : 5768px;
+  min-height          : 5824px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -879,7 +851,7 @@ div {
 .bp2-mobile .bp2-view1 {
   background          : rgba(206, 32, 41, 1.0);
   top                 : 5030px;
-  height              : 579px;
+  height              : 635px;
   width               : 320px;
   position            : absolute;
   margin              : 0;
@@ -902,9 +874,74 @@ div {
   letter-spacing      : 1.18px;
   line-height         : 24.0px;
 }
+.bp2-mobile .bp2-social-deck {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 5606px;
+  height              : 28px;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 125px;
+}
+.bp2-mobile .bp2-social-deck .bp2-button-social-twitter {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-mobile .bp2-social-deck .bp2-button-social-twitter .bp2-oval {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 14px;
+}
+.bp2-mobile .bp2-social-deck .bp2-button-social-twitter .bp2-twitter {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 13px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.bp2-mobile .bp2-social-deck .bp2-button-social-instagram {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+}
+.bp2-mobile .bp2-social-deck .bp2-button-social-instagram .bp2-view2 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 14px;
+}
+.bp2-mobile .bp2-social-deck .bp2-button-social-instagram .bp2-instagram {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
 .bp2-mobile .bp2-video {
   background          : rgba(255, 255, 255, 0.0);
-  top                 : 5609px;
+  top                 : 5665px;
   height              : 159px;
   width               : 320px;
   position            : absolute;
@@ -1115,42 +1152,31 @@ div {
   margin              : 0;
   left                : 0px;
 }
+.bp1-desktop .bp1-about .bp1-the-feminist-letters {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 162px;
+  height              : auto;
+  width               : 715px;
+  position            : absolute;
+  margin              : 0;
+  left                : 150px;
+  font-family         : "Rubik", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  letter-spacing      : 0.48px;
+  line-height         : 28.0px;
+}
 .bp1-desktop .bp1-about .bp1-social-deck {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 429px;
   height              : 28px;
-  width               : 115px;
+  width               : 71px;
   position            : absolute;
   margin              : 0;
-  left                : 455px;
-}
-.bp1-desktop .bp1-about .bp1-social-deck .bp1-button-social-facebook {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp1-desktop .bp1-about .bp1-social-deck .bp1-button-social-facebook .bp1-oval {
-  background          : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 14px;
-}
-.bp1-desktop .bp1-about .bp1-social-deck .bp1-button-social-facebook .bp1-facebook {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 7px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 7px;
+  left                : 477px;
 }
 .bp1-desktop .bp1-about .bp1-social-deck .bp1-button-social-twitter {
   background          : rgba(255, 255, 255, 0.0);
@@ -1159,9 +1185,9 @@ div {
   width               : 28px;
   position            : absolute;
   margin              : 0;
-  left                : 44px;
+  left                : 0px;
 }
-.bp1-desktop .bp1-about .bp1-social-deck .bp1-button-social-twitter .bp1-view1 {
+.bp1-desktop .bp1-about .bp1-social-deck .bp1-button-social-twitter .bp1-oval {
   background          : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 28px;
@@ -1187,9 +1213,9 @@ div {
   width               : 28px;
   position            : absolute;
   margin              : 0;
-  left                : 87px;
+  left                : 43px;
 }
-.bp1-desktop .bp1-about .bp1-social-deck .bp1-button-social-instagram .bp1-view2 {
+.bp1-desktop .bp1-about .bp1-social-deck .bp1-button-social-instagram .bp1-view1 {
   background          : rgba(255, 255, 255, 1.0);
   top                 : 0px;
   height              : 28px;
@@ -1207,23 +1233,6 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 7px;
-}
-.bp1-desktop .bp1-about .bp1-the-feminist-letters {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 162px;
-  height              : auto;
-  width               : 715px;
-  position            : absolute;
-  margin              : 0;
-  left                : 150px;
-  font-family         : "Rubik", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 22.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : justify;
-  letter-spacing      : 0.48px;
-  line-height         : 28.0px;
 }
 .bp1-desktop .bp1-about .bp1-button-download {
   background          : rgba(255, 255, 255, 0.0);
