@@ -1,551 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,500');
+@import url('https://fonts.googleapis.com/css?family=Rubik:500,300');
 
 
-.bp3-tablet {
-  width               : 100%;
-  min-width           : 768px;
-  height              : 100vh;
-  min-height          : 1690px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
-  background          : rgba(255, 255, 255, 1.0);
-}
-a {
-  text-decoration     : none;
-}
-div {
-  -webkit-text-size-adjust: none;
-}
-.bp3-tablet .bp3-group {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 17px;
-  height              : 1673px;
-  width               : 768px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-}
-.bp3-tablet .bp3-group .bp3-video {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 1244px;
-  height              : 429px;
-  width               : 768px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp3-tablet .bp3-group .bp3-video .bp3-rectangle {
-  background          : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 429px;
-  width               : 767px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-}
-.bp3-tablet .bp3-group .bp3-video .bp3-rectangle video {
-  object-fit          : cover;
-  width               : 100%;
-  height              : 100%;
-}
-/* IE doesn't support cover  */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .bp3-tablet .bp3-group .bp3-video .bp3-rectangle video {
-    min-width           : 100%;
-    min-height          : 100%;
-    position            : absolute;
-    margin              : auto;
-    top                 : -9999px;
-    bottom              : -9999px;
-    left                : -9999px;
-    right               : -9999px;
-  }
-}
-.bp3-tablet .bp3-group .bp3-about {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 757px;
-  height              : 487px;
-  width               : 768px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-rectangle3 {
-  background          : rgba(206, 32, 41, 1.0);
-  top                 : 0px;
-  height              : 487px;
-  width               : 768px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-social-deck {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 417px;
-  height              : 28px;
-  width               : 71px;
-  position            : absolute;
-  margin              : 0;
-  left                : 349px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-twitter {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-twitter .bp3-oval {
-  background          : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 14px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-twitter .bp3-twitter {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 8px;
-  height              : 13px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-instagram {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 43px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-instagram .bp3-view1 {
-  background          : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 14px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-instagram .bp3-instagram {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 7px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 7px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-the-feminist-letters {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 112px;
-  height              : auto;
-  width               : 537px;
-  position            : absolute;
-  margin              : 0;
-  left                : 116px;
-  font-family         : "Rubik", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 22.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : justify;
-  letter-spacing      : 0.48px;
-  line-height         : 28.0px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-button-download {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 33px;
-  height              : 35px;
-  width               : 330px;
-  position            : absolute;
-  margin              : 0;
-  left                : 219px;
-}
-.bp3-tablet .bp3-group .bp3-about .bp3-button-download .bp3-download-the-font {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 330px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  font-family         : "Rubik", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 26.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.28px;
-  line-height         : 31.0px;
-}
-.bp3-tablet .bp3-group .bp3-letters {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 125px;
-  height              : 475px;
-  width               : 659px;
-  position            : absolute;
-  margin              : 0;
-  left                : 55px;
-  opacity             : 0.79;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-a {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 103px;
-  width               : 98px;
-  position            : absolute;
-  margin              : 0;
-  left                : 30px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-b {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 103px;
-  width               : 67px;
-  position            : absolute;
-  margin              : 0;
-  left                : 160px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-c {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 103px;
-  width               : 115px;
-  position            : absolute;
-  margin              : 0;
-  left                : 244px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-d {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 103px;
-  width               : 103px;
-  position            : absolute;
-  margin              : 0;
-  left                : 366px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-e {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 103px;
-  width               : 75px;
-  position            : absolute;
-  margin              : 0;
-  left                : 482px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-f {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 103px;
-  width               : 74px;
-  position            : absolute;
-  margin              : 0;
-  left                : 560px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-g {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 122px;
-  height              : 107px;
-  width               : 80px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-h {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 122px;
-  height              : 107px;
-  width               : 72px;
-  position            : absolute;
-  margin              : 0;
-  left                : 95px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-i {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 122px;
-  height              : 107px;
-  width               : 105px;
-  position            : absolute;
-  margin              : 0;
-  left                : 178px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-j {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 122px;
-  height              : 107px;
-  width               : 71px;
-  position            : absolute;
-  margin              : 0;
-  left                : 293px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-k {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 122px;
-  height              : 107px;
-  width               : 80px;
-  position            : absolute;
-  margin              : 0;
-  left                : 385px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-l {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 122px;
-  height              : 107px;
-  width               : 80px;
-  position            : absolute;
-  margin              : 0;
-  left                : 485px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-m {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 122px;
-  height              : 107px;
-  width               : 89px;
-  position            : absolute;
-  margin              : 0;
-  left                : 570px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-n {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 248px;
-  height              : 107px;
-  width               : 69px;
-  position            : absolute;
-  margin              : 0;
-  left                : 8px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-o {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 248px;
-  height              : 107px;
-  width               : 87px;
-  position            : absolute;
-  margin              : 0;
-  left                : 92px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-p {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 248px;
-  height              : 107px;
-  width               : 80px;
-  position            : absolute;
-  margin              : 0;
-  left                : 188px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-q {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 248px;
-  height              : 107px;
-  width               : 75px;
-  position            : absolute;
-  margin              : 0;
-  left                : 278px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-r {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 248px;
-  height              : 107px;
-  width               : 74px;
-  position            : absolute;
-  margin              : 0;
-  left                : 362px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-s {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 248px;
-  height              : 107px;
-  width               : 66px;
-  position            : absolute;
-  margin              : 0;
-  left                : 458px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-t {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 248px;
-  height              : 107px;
-  width               : 104px;
-  position            : absolute;
-  margin              : 0;
-  left                : 541px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-u {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 369px;
-  height              : 107px;
-  width               : 72px;
-  position            : absolute;
-  margin              : 0;
-  left                : 28px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-v {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 369px;
-  height              : 107px;
-  width               : 68px;
-  position            : absolute;
-  margin              : 0;
-  left                : 128px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-w {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 369px;
-  height              : 107px;
-  width               : 87px;
-  position            : absolute;
-  margin              : 0;
-  left                : 215px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-x {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 369px;
-  height              : 107px;
-  width               : 106px;
-  position            : absolute;
-  margin              : 0;
-  left                : 320px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-y {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 369px;
-  height              : 107px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 435px;
-}
-.bp3-tablet .bp3-group .bp3-letters .bp3-z {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 369px;
-  height              : 107px;
-  width               : 85px;
-  position            : absolute;
-  margin              : 0;
-  left                : 554px;
-}
-.bp3-tablet .bp3-group .bp3-choose-a-letter-and {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 635px;
-  height              : auto;
-  width               : 508px;
-  position            : absolute;
-  margin              : 0;
-  left                : 130px;
-  font-family         : "Rubik", Helvetica, Arial, serif;
-  font-weight         : 500;
-  font-style          : normal;
-  font-size           : 26.0px;
-  color               : rgba(206, 32, 41, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.28px;
-  line-height         : 31.0px;
-}
-.bp3-tablet .bp3-group .bp3-label1 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 208px;
-  position            : absolute;
-  margin              : 0;
-  left                : 278px;
-  font-family         : "Rubik", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 28.0px;
-  color               : rgba(206, 32, 41, 1.0);
-  text-align          : center;
-  letter-spacing      : 1.77px;
-  line-height         : 33.0px;
-}
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-}
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
 .bp2-mobile {
   width               : 100%;
   min-width           : 320px;
@@ -562,26 +17,81 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.bp2-mobile .bp2-the-feminist-letters {
+.bp2-mobile .bp2-logo {
   background          : rgba(255, 255, 255, 0.0);
-  top                 : 17px;
-  height              : auto;
-  width               : auto;
+  top                 : 37px;
+  height              : 78px;
+  width               : 127px;
   position            : absolute;
   margin              : 0;
-  left                : 92px;
-  font-family         : "Rubik", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 28.0px;
-  color               : rgba(206, 32, 41, 1.0);
-  text-align          : center;
-  letter-spacing      : 1.77px;
-  line-height         : 33.0px;
+  left                : 97px;
+}
+.bp2-mobile .bp2-logo .bp2-t-f-llogo-red {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 78px;
+  width               : 127px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-mobile .bp2-logo .bp2-t-f-llogo-red .bp2-fill1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.bp2-mobile .bp2-logo .bp2-t-f-llogo-red .bp2-fill2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 57px;
+  height              : 20px;
+  width               : 127px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-mobile .bp2-logo .bp2-t-f-llogo-red .bp2-fill3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 57px;
+  height              : 21px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.bp2-mobile .bp2-logo .bp2-t-f-llogo-red .bp2-fill4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 22px;
+  width               : 127px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-mobile .bp2-logo .bp2-t-f-llogo-red .bp2-fill5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 21px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.bp2-mobile .bp2-logo .bp2-t-f-llogo-red .bp2-fill6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
 }
 .bp2-mobile .bp2-rectangle3 {
   background          : rgba(206, 32, 41, 1.0);
-  top                 : 130px;
+  top                 : 150px;
   height              : 177px;
   width               : 320px;
   position            : absolute;
@@ -590,7 +100,7 @@ div {
 }
 .bp2-mobile .bp2-choose-a-letter-and {
   background          : rgba(255, 255, 255, 0.0);
-  top                 : 175px;
+  top                 : 194px;
   height              : auto;
   width               : 255px;
   position            : absolute;
@@ -848,134 +358,6 @@ div {
   margin              : 0;
   left                : 20px;
 }
-.bp2-mobile .bp2-view1 {
-  background          : rgba(206, 32, 41, 1.0);
-  top                 : 5030px;
-  height              : 635px;
-  width               : 320px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-mobile .bp2-label1 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 5162px;
-  height              : auto;
-  width               : 256px;
-  position            : absolute;
-  margin              : 0;
-  left                : 33px;
-  font-family         : "Rubik", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 20.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : justify;
-  letter-spacing      : 1.18px;
-  line-height         : 24.0px;
-}
-.bp2-mobile .bp2-social-deck {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 5606px;
-  height              : 28px;
-  width               : 71px;
-  position            : absolute;
-  margin              : 0;
-  left                : 125px;
-}
-.bp2-mobile .bp2-social-deck .bp2-button-social-twitter {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-mobile .bp2-social-deck .bp2-button-social-twitter .bp2-oval {
-  background          : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 14px;
-}
-.bp2-mobile .bp2-social-deck .bp2-button-social-twitter .bp2-twitter {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 8px;
-  height              : 13px;
-  width               : 16px;
-  position            : absolute;
-  margin              : 0;
-  left                : 6px;
-}
-.bp2-mobile .bp2-social-deck .bp2-button-social-instagram {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 43px;
-}
-.bp2-mobile .bp2-social-deck .bp2-button-social-instagram .bp2-view2 {
-  background          : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 28px;
-  width               : 28px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 14px;
-}
-.bp2-mobile .bp2-social-deck .bp2-button-social-instagram .bp2-instagram {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 7px;
-  height              : 14px;
-  width               : 14px;
-  position            : absolute;
-  margin              : 0;
-  left                : 7px;
-}
-.bp2-mobile .bp2-video {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 5665px;
-  height              : 159px;
-  width               : 320px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-mobile .bp2-video .bp2-rectangle {
-  background          : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 158px;
-  width               : 320px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-}
-.bp2-mobile .bp2-video .bp2-rectangle video {
-  object-fit          : cover;
-  width               : 100%;
-  height              : 100%;
-}
-/* IE doesn't support cover  */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .bp2-mobile .bp2-video .bp2-rectangle video {
-    min-width           : 100%;
-    min-height          : 100%;
-    position            : absolute;
-    margin              : auto;
-    top                 : -9999px;
-    bottom              : -9999px;
-    left                : -9999px;
-    right               : -9999px;
-  }
-}
 .bp2-mobile .bp2-button-download {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 5065px;
@@ -985,14 +367,114 @@ div {
   margin              : 0;
   left                : 9px;
 }
-.bp2-mobile .bp2-button-download .bp2-download-the-font {
+.bp2-mobile .bp2-group {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 5009px;
+  height              : 635px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-mobile .bp2-group .bp2-view1 {
+  background          : rgba(206, 32, 41, 1.0);
+  top                 : 0px;
+  height              : 635px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-mobile .bp2-group .bp2-the-feminist-letters {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 140px;
+  height              : auto;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  font-family         : "Rubik", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  letter-spacing      : 0.94px;
+  line-height         : 24.0px;
+}
+.bp2-mobile .bp2-group .bp2-social-deck {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 572px;
+  height              : 28px;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 125px;
+}
+.bp2-mobile .bp2-group .bp2-social-deck .bp2-button-social-twitter {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-mobile .bp2-group .bp2-social-deck .bp2-button-social-twitter .bp2-oval {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 14px;
+}
+.bp2-mobile .bp2-group .bp2-social-deck .bp2-button-social-twitter .bp2-twitter {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 13px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.bp2-mobile .bp2-group .bp2-social-deck .bp2-button-social-instagram {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+}
+.bp2-mobile .bp2-group .bp2-social-deck .bp2-button-social-instagram .bp2-view2 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 14px;
+}
+.bp2-mobile .bp2-group .bp2-social-deck .bp2-button-social-instagram .bp2-instagram {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.bp2-mobile .bp2-group .bp2-download-the-font {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 35px;
   height              : auto;
   width               : 302px;
   position            : absolute;
   margin              : 0;
-  left                : -0px;
+  left                : 9px;
   font-family         : "Rubik", Helvetica, Arial, serif;
   font-weight         : 500;
   font-style          : normal;
@@ -1001,6 +483,25 @@ div {
   text-align          : center;
   letter-spacing      : 0.28px;
   line-height         : 31.0px;
+}
+.bp2-mobile .bp2-video {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 5644px;
+  height              : 180px;
+  width               : 320px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-mobile .bp2-video .bp2-rectangle {
+  background          : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 180px;
+  width               : 320px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
@@ -1085,7 +586,7 @@ div {
   width               : 100%;
   min-width           : 1024px;
   height              : 100vh;
-  min-height          : 1986px;
+  min-height          : 1994px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -1096,43 +597,6 @@ a {
 }
 div {
   -webkit-text-size-adjust: none;
-}
-.bp1-desktop .bp1-video {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 1418px;
-  height              : 571px;
-  width               : 1024px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp1-desktop .bp1-video .bp1-rectangle {
-  background          : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 571px;
-  width               : 1024px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  overflow            : hidden;
-}
-.bp1-desktop .bp1-video .bp1-rectangle video {
-  object-fit          : cover;
-  width               : 100%;
-  height              : 100%;
-}
-/* IE doesn't support cover  */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .bp1-desktop .bp1-video .bp1-rectangle video {
-    min-width           : 100%;
-    min-height          : 100%;
-    position            : absolute;
-    margin              : auto;
-    top                 : -9999px;
-    bottom              : -9999px;
-    left                : -9999px;
-    right               : -9999px;
-  }
 }
 .bp1-desktop .bp1-about {
   background          : rgba(255, 255, 255, 0.0);
@@ -1521,22 +985,678 @@ div {
   letter-spacing      : 0.28px;
   line-height         : 31.0px;
 }
-.bp1-desktop .bp1-label1 {
+.bp1-desktop .bp1-logo {
   background          : rgba(255, 255, 255, 0.0);
-  top                 : 19px;
-  height              : auto;
-  width               : auto;
+  top                 : 23px;
+  height              : 78px;
+  width               : 127px;
   position            : absolute;
   margin              : 0;
-  left                : 444px;
+  left                : 449px;
+}
+.bp1-desktop .bp1-logo .bp1-t-f-llogo-red {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 78px;
+  width               : 127px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-desktop .bp1-logo .bp1-t-f-llogo-red .bp1-fill1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.bp1-desktop .bp1-logo .bp1-t-f-llogo-red .bp1-fill2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 57px;
+  height              : 20px;
+  width               : 127px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-desktop .bp1-logo .bp1-t-f-llogo-red .bp1-fill3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 57px;
+  height              : 21px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.bp1-desktop .bp1-logo .bp1-t-f-llogo-red .bp1-fill4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 22px;
+  width               : 127px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-desktop .bp1-logo .bp1-t-f-llogo-red .bp1-fill5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 21px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.bp1-desktop .bp1-logo .bp1-t-f-llogo-red .bp1-fill6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+}
+.bp1-desktop .bp1-video {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1418px;
+  height              : 576px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-desktop .bp1-video .bp1-rectangle {
+  background          : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 576px;
+  width               : 1024px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp3-tablet {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 1690px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-tablet .bp3-group {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : 1238px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-tablet .bp3-group .bp3-about {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 751px;
+  height              : 487px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-tablet .bp3-group .bp3-about .bp3-rectangle3 {
+  background          : rgba(206, 32, 41, 1.0);
+  top                 : 0px;
+  height              : 487px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-tablet .bp3-group .bp3-about .bp3-social-deck {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 417px;
+  height              : 28px;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 349px;
+}
+.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-twitter {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-twitter .bp3-oval {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 14px;
+}
+.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-twitter .bp3-twitter {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 13px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-instagram {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+}
+.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-instagram .bp3-view1 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 14px;
+}
+.bp3-tablet .bp3-group .bp3-about .bp3-social-deck .bp3-button-social-instagram .bp3-instagram {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 7px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.bp3-tablet .bp3-group .bp3-about .bp3-the-feminist-letters {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 112px;
+  height              : auto;
+  width               : 537px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
   font-family         : "Rubik", Helvetica, Arial, serif;
   font-weight         : 300;
   font-style          : normal;
-  font-size           : 28.0px;
+  font-size           : 22.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  letter-spacing      : 0.48px;
+  line-height         : 28.0px;
+}
+.bp3-tablet .bp3-group .bp3-about .bp3-button-download {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : 35px;
+  width               : 330px;
+  position            : absolute;
+  margin              : 0;
+  left                : 219px;
+}
+.bp3-tablet .bp3-group .bp3-about .bp3-button-download .bp3-download-the-font {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 330px;
+  position            : absolute;
+  margin              : 0;
+  left                : -0px;
+  font-family         : "Rubik", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 26.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.28px;
+  line-height         : 31.0px;
+}
+.bp3-tablet .bp3-group .bp3-letters {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : 475px;
+  width               : 659px;
+  position            : absolute;
+  margin              : 0;
+  left                : 55px;
+  opacity             : 0.79;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-a {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 103px;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-b {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 103px;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-c {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 103px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-d {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 103px;
+  width               : 103px;
+  position            : absolute;
+  margin              : 0;
+  left                : 366px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-e {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 103px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 482px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-f {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 103px;
+  width               : 74px;
+  position            : absolute;
+  margin              : 0;
+  left                : 560px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-g {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 122px;
+  height              : 107px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-h {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 122px;
+  height              : 107px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-i {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 122px;
+  height              : 107px;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 178px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-j {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 122px;
+  height              : 107px;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 293px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-k {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 122px;
+  height              : 107px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 385px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-l {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 122px;
+  height              : 107px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 485px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-m {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 122px;
+  height              : 107px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 570px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-n {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 248px;
+  height              : 107px;
+  width               : 69px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-o {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 248px;
+  height              : 107px;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-p {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 248px;
+  height              : 107px;
+  width               : 80px;
+  position            : absolute;
+  margin              : 0;
+  left                : 188px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-q {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 248px;
+  height              : 107px;
+  width               : 75px;
+  position            : absolute;
+  margin              : 0;
+  left                : 278px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-r {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 248px;
+  height              : 107px;
+  width               : 74px;
+  position            : absolute;
+  margin              : 0;
+  left                : 362px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-s {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 248px;
+  height              : 107px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 458px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-t {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 248px;
+  height              : 107px;
+  width               : 104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 541px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-u {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 369px;
+  height              : 107px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-v {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 369px;
+  height              : 107px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-w {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 369px;
+  height              : 107px;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 215px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-x {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 369px;
+  height              : 107px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 320px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-y {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 369px;
+  height              : 107px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 435px;
+}
+.bp3-tablet .bp3-group .bp3-letters .bp3-z {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 369px;
+  height              : 107px;
+  width               : 85px;
+  position            : absolute;
+  margin              : 0;
+  left                : 554px;
+}
+.bp3-tablet .bp3-group .bp3-choose-a-letter-and {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 629px;
+  height              : auto;
+  width               : 508px;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  font-family         : "Rubik", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 26.0px;
   color               : rgba(206, 32, 41, 1.0);
   text-align          : center;
-  letter-spacing      : 1.77px;
-  line-height         : 33.0px;
+  letter-spacing      : 0.28px;
+  line-height         : 31.0px;
+}
+.bp3-tablet .bp3-group .bp3-logo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 78px;
+  width               : 127px;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+}
+.bp3-tablet .bp3-group .bp3-logo .bp3-t-f-llogo-red {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 78px;
+  width               : 127px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-tablet .bp3-group .bp3-logo .bp3-t-f-llogo-red .bp3-fill1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 56px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+}
+.bp3-tablet .bp3-group .bp3-logo .bp3-t-f-llogo-red .bp3-fill2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 57px;
+  height              : 20px;
+  width               : 127px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-tablet .bp3-group .bp3-logo .bp3-t-f-llogo-red .bp3-fill3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 57px;
+  height              : 21px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.bp3-tablet .bp3-group .bp3-logo .bp3-t-f-llogo-red .bp3-fill4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 22px;
+  width               : 127px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-tablet .bp3-group .bp3-logo .bp3-t-f-llogo-red .bp3-fill5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 21px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+}
+.bp3-tablet .bp3-group .bp3-logo .bp3-t-f-llogo-red .bp3-fill6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28px;
+  height              : 21px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 87px;
+}
+.bp3-tablet .bp3-video {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1258px;
+  height              : 432px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-tablet .bp3-video .bp3-rectangle {
+  background          : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 432px;
+  width               : 768px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
