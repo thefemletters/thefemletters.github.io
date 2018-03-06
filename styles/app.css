@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:500,300');
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Rubik", Helvetica, Arial, serif;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.video-container {
+  background-color: #ce2029;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 75%;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+}
+
+.content h2 {
+  text-align: center;
+  color: #ce2029;
+  font-style: normal;
+  font-size: 26.0px;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+  margin: 35px 0;
+}
+
+.content ul.letter-grid {
+  text-align: center;
+}
+
+
+.content ul.letter-grid li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.content ul.letter-grid li a {
+  text-decoration: none;
+}
+
+.content ul.letter-grid li img {
+  height: 136px;
+  margin: 0 0 30px;
+}
+
+.logo-container {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.logo-container img {
+  width: 60px;
+}
+
+.footer {
+  background-color: #ce2029;
+  color: #FFF;
+  padding: 62px 0 35px;
+}
+
+.footer h3 {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 26.0px;
+  color: #FFF;
+  text-align: center;
+  letter-spacing: 0.28px;
+  padding: 0 0 60px;
+  text-transform: uppercase;
+}
+
+.footer h3 a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.footer .text-container {
+  width: 100%;
+  max-width: 508px;
+  margin: 0 auto;
+}
+
+.footer p {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18.0px;
+  text-align: justify;
+  letter-spacing: -0.68px;
+  line-height: 22.0px;
+}
+
+.footer ul.social-icons {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.footer ul.social-icons li {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin: 0 5px;
+}
+
+.footer ul.social-icons li a {
+  display: block;
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.footer ul.social-icons li a#twitter {
+  background-image: url(../images/twitter.png);
+  background-size: 16px 13px;
+}
+
+.footer ul.social-icons li a#instagram {
+  background-image: url(../images/instagram.png);
+  background-size: 14px 14px;
+}
+
+.footer ul.social-icons li a#email {
+  background-image: url(../images/email.png);
+  background-size: 16px 12px;
+}
+
+.footer ul.social-icons li a img {
+  line-height: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  .content ul.letter-grid li {
+    margin: 0;
+  }
+  .content ul.letter-grid li:after { 
+    content: "\A";
+    white-space: pre;
+  }
+  .footer {
+    padding: 62px 15px 35px;
+  }
+  .content ul.letter-grid li img.hidden {
+    display: inline;
+    height: 272px;
+    margin: 0 0 90px;
+  }
+  .content ul.letter-grid li img {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .content ul.letter-grid li {
+    margin: 0 25px;
+  }
+
+  .content ul.letter-grid li:nth-child(3):after { 
+    content: "\A";
+    white-space: pre;
+  }
+
+  .content ul.letter-grid li:nth-child(7):after { 
+    content: "\A";
+    white-space: pre;
+  }
+
+  .content ul.letter-grid li:nth-child(11):after { 
+    content: "\A";
+    white-space: pre;
+  }
+
+  .content ul.letter-grid li:nth-child(15):after { 
+    content: "\A";
+    white-space: pre;
+  }
+
+  .content ul.letter-grid li:nth-child(19):after { 
+    content: "\A";
+    white-space: pre;
+  }
+
+  .content ul.letter-grid li:nth-child(23):after { 
+    content: "\A";
+    white-space: pre;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .content ul.letter-grid li:nth-child(6):after { 
+    content: "\A";
+    white-space: pre;
+  }
+
+  .content ul.letter-grid li:nth-child(13):after { 
+    content: "\A";
+    white-space: pre;
+  }
+
+  .content ul.letter-grid li:nth-child(20):after { 
+    content: "\A";
+    white-space: pre;
+  }
+}
