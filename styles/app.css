@@ -16,7 +16,7 @@ body {
 }
 
 .video-container {
-  background-color: #ce2029;
+  background-color: #fff;
 }
 
 .video-wrapper {
@@ -96,7 +96,10 @@ body {
   text-decoration: none;
   color: #FFF;
 }
-
+.footer h3 a:hover {
+  text-decoration: underline;
+  color: #000;
+}
 .footer .text-container {
   width: 100%;
   max-width: 508px;
