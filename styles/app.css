@@ -73,6 +73,7 @@ body {
 
 .logo-container img {
   width: 60px;
+  vertical-align: middle;
 }
 
 .footer {
